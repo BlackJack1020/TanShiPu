@@ -1,0 +1,7 @@
+/* pages/login/login.wxss */
+page{
+    /* flex 布局 水平垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

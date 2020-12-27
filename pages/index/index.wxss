@@ -1,0 +1,176 @@
+/**index.wxss**/
+@import '../../style/util.wxss';
+
+/**最外部的view容器样式**/
+.external-container{
+  /**外部容器宽度 整屏**/
+  width: 750rpx;
+  /**居中显示**/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/**滑块视图样式**/
+.swiper{
+  height: 180px;
+}
+/**滑块视图中的图片样式**/
+.swiper-img{
+  width: 100%;
+}
+.classify{
+  padding-bottom: 20rpx;
+}
+/* 常用分类头部整体样式 */
+.classify-head{
+  display: flex;
+}
+/**分类标题样式**/
+.classify-title{
+  flex: 1;
+  /**字体样式**/
+  font-size: 16px;
+  font-weight: 700;
+  
+  /**左右边距**/
+  margin-top: 10px;
+  position: relative;
+  left: 20rpx;
+  
+}
+/* 更多分类样式 */
+.classify-head navigator{
+  flex: 1;
+  /**字体样式**/
+  font-size: 14px;
+  font-weight: 700;
+  color: darkgray;
+  text-align: right;
+
+  /* 位置调整 */
+  position: relative;
+  right: 20rpx;
+
+  /**左右边距**/
+  margin-top: 10px;
+  margin-left: 15rpx;
+}
+/* 分类主体样式 */
+.classify-body{
+  /* 距离上面 10px 距离左侧 15rpx flex 布局 */
+  margin-top: 10px;
+  margin-left: 15rpx;
+  display: flex;
+}
+/* 分类菜单项样式 */
+.classify-item{
+  /* 每个占1/n */
+  flex: 1;
+  /* 居中显示 */
+  text-align: center;
+}
+/* .classify-item view{
+  width: 160rpx;
+  height: 100rpx;
+  
+  border-radius: 25rpx;
+} */
+/* .classify-item text{
+  font-size: medium;
+  color: #838383;
+  font-weight: 600;
+
+  position: absolute;
+  top: 50rpx;
+  left: 80rpx;
+  transform: translate(-50%,-50%)
+} */
+/* 分类项中那个图标的样式 */
+.classify-item text{
+  /* 图标大小 */
+  font-size: 80rpx;
+}
+/* 分类项中的分类名称 早餐 午餐巴拉巴拉的 */
+.classify-item view{
+  /* 文字居中 文字颜色 文字大小 */
+  text-align: center;
+  color: #373a40;
+  font-size: smaller;
+}
+
+/* 最新佳作标题部分 */
+.update-title{
+  /* 文字大小 粗细 居中 */
+  font-size: medium;
+  font-weight: 800;
+  text-align: center;
+  /* 内部距离上面的距离 内部距离底部的距离 */
+  padding-top: 20rpx;
+  padding-bottom: 50rpx;
+}
+/* 最新佳作整体部分 */
+.update-body{
+  /*宽度高度给100% 调整为flex布局 竖向排列 居中 */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: center;
+}
+/* 最新佳作每一项的样式 */
+.update-item{
+  /* 宽度给满 */
+  width: 100%;
+  /* 内部距离底部的距离 */
+  padding-bottom: 30rpx;
+}
+/* 每日佳作每一项的头部信息部分样式 标题作者啥的 */
+.update-item-head{
+  /* 内部距离底部距离 flex布局 */
+  padding-bottom: 20rpx;
+  display: flex;
+}
+/* 标题样式 */
+.update-item-title{
+  /* 占1/2 */
+  flex: 1;
+  /* 字体大小 粗细 */
+  font-size: large;
+  font-weight: 600;
+  /* 相对定位 距离左侧20rpx */
+  position: relative;
+  left: 20rpx;
+}
+/* 作者样式 */
+.update-item-author{
+  /* 占1/2 */
+  flex: 1;
+  /* 靠右对齐 文字颜色 大小*/
+  text-align: right;
+  color: darkgray;
+  font-size: 10rpx;
+}
+/* 简介部分 */
+.update-item-introd{
+  /* 文字大小 颜色 */
+  font-size: 28rpx;
+  color: darkgray;
+  /* 相对定位 距离左侧距离 距离底部的距离 */
+  position: relative;
+  left: 20rpx;
+  padding-bottom: 20rpx;
+}
+/* 封面图片样式 */
+.update-item image{
+  /* 直接最宽 */
+  width: 100%;
+}
+/* 浏览 收藏 样式 */
+.update-item-scan{
+  /* 靠右对齐 距离右侧距离 颜色 */
+  text-align: right;
+  padding-right: 20rpx;
+  color: darkgray;
+}

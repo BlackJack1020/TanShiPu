@@ -1,0 +1,135 @@
+/* pages/publish/publish.wxss */
+@import "../../lib/weui.wxss";
+@import "./assets/iconfont.wxss";
+
+/* 菜谱标题部分样式 */
+.menu-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 80rpx;
+  margin-top: 30rpx;
+}
+.menu-title view {
+  height: 80rpx;
+  width: 100px;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 16px;
+  font-weight: 500;
+}
+.menu-title input {
+  width: 540rpx;
+  height: 80rpx;
+  border: 1px solid #e8e8e8;
+  border-radius: 20rpx;
+}
+/* 菜谱简介样式 */
+.menu-introd {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 200rpx;
+  margin-top: 30rpx;
+}
+.menu-introd view {
+  height: 200rpx;
+  width: 100px;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 16px;
+  font-weight: 500;
+}
+.menu-introd textarea {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* 菜谱封面部分样式 */
+.menu-img{
+  margin-bottom: 30rpx;
+}
+.menu-img image{
+  width: 100%;
+}
+
+/* 下面时材料部分的样式 */
+.menu-materials{
+  background-color: #ecf4f3;
+}
+.materials-title {
+  display: flex;
+  width: 100%;
+  font-size: 35rpx;
+  font-weight: 600;
+}
+.materials-title view{
+  width: 187rpx;
+  text-align: center;
+}
+.materials-row{
+  display: flex;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #e8e8e8;
+}
+.materials-row view{
+  width: 187rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.materials-row view input{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+/* 下面时富文本编辑器区域的样式 */
+.editor-container {
+  width: 100%;
+}
+
+.ql-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #ececec;
+}
+
+.ql-active {
+  color: #22c704;
+}
+
+.iconfont {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.toolbar {
+  box-sizing: border-box;
+  padding: 0 10px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ececec;
+  border-left: none;
+  border-right: none;
+}
+/* 底部按钮样式 */
+.btn button{
+  margin-top: 20rpx;
+}

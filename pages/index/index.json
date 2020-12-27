@@ -1,0 +1,6 @@
+{
+  "usingComponents": { "searchInput": "/components/searchInput/searchInput" },
+  "enablePullDownRefresh": true, 
+  "backgroundColor": "#FF4500" ,
+  "navigationBarTitleText":"首页"
+}
